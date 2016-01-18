@@ -2,12 +2,14 @@
   Boring But Big
 </h1>
 
-<div class="border m2">
+<div class="border m2 p2">
   {{#each model as |lift|}}
-    {{ok-max lift=lift}}
+    {{ok-max
+      lift=lift
+      clearRm=(action (mut repMax))}}
   {{/each}}
 </div>
 
-<div class="border m2">
+<div class="border m2 p2">
   {{ok-week lifts=model}}
 </div>

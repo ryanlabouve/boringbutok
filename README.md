@@ -1,5 +1,15 @@
 # Boringbutok
 
+This is a workout plan that focuses on Squat, Bench, and Deadlifty.
+
+It's heavily influenced by 5/3/1, Texas Method, Starting Strenght, and probably more.
+
+It's 100% for my own personal tinkering right now, but you can pull it, customize you weight in `app/mirage/config.jf` and mess with it.
+
+----------
+
+Below is the standard fare...
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 

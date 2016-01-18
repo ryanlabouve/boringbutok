@@ -1,3 +1,13 @@
-<h2 id="title">Welcome to Ember</h2>
+<h1>
+  Boring But Big
+</h1>
 
-{{outlet}}
+<div class="border m2">
+  {{#each model as |lift|}}
+    {{ok-max lift=lift}}
+  {{/each}}
+</div>
+
+<div class="border m2">
+  {{ok-week lifts=model}}
+</div>

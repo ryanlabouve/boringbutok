@@ -1,0 +1,25 @@
+<h3>Intensity for {{lift.name}}</h3>
+
+<table>
+{{#each allSets as |set|}}
+  <tr>
+    <td>
+      {{set.vol}}
+    </td>
+    <td>
+      {{set.sets}}
+    </td>
+    <td>
+      &times;
+    </td>
+    <td>
+      {{set.reps}}
+    </td>
+    <td>
+      @{{ceil set.weight}} lbs
+    </td>
+  </tr>
+{{/each}}
+</table>
+
+Total Weight: {{totalWeight}}

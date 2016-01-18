@@ -1,0 +1,11 @@
+Calc 1rm:
+<label class="block mt2">weight</label>
+{{input class="field" value=weight}}
+
+<label class="block mt2">reps</label>
+{{input class="field" value=reps}}
+
+{{weight}} &times; {{reps}} &times; 0.0333 + {{weight}} =
+{{oneRm}}
+
+<a href="#" {{action "save"}}>Save</a>

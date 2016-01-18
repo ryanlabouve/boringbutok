@@ -1,0 +1,10 @@
+{{lift.name}}
+
+{{#unless lift.rm}}
+  No 1rm
+  {{ok-max/finder save=(action (mut lift.rm))}}
+  <hr>
+{{else}}
+1rm: {{lift.rm}} / training max: {{lift.tm}} / weekly adjustment {{lift.weeklyAdjustment}}
+  <hr>
+{{/unless}}
